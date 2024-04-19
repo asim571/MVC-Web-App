@@ -1,0 +1,13 @@
+﻿@model Asim_WebApplication1.Models.Employee
+<h1>
+    This is test.
+</h1>
+<h2>This is from view data</h2>
+<h4>ID = @ViewData["id"] and Name = @ViewData["name"]</h4>
+<h2>This is from view bag</h2>
+<h4> Id = @ViewBag.id and Name = @ViewBag.empname</h4>
+<h2>This is from object</h2>
+<h4> Id = @Model.Id and Name = @Model.Name</h4>
+
+<h2>This is from form</h2>
+<h4> ID = @Model.Id, Name = @Model.Name and Salary = @Model.Salary</h4>
